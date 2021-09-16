@@ -10,6 +10,8 @@ ro:
       search: "Filtrează"
     following: "Nu mai urmăriți"
     required: "Necesar"
+    view_mode:
+      title: Mod de vizualizare
   form:
     not_saved: "a/au prevenit acest/această %{resource} din a fi salvat/ă. <br>Vă rugăm să verificați câmpurile marcate pentru a ști cum să le corectați:"
 

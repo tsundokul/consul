@@ -7,6 +7,8 @@ ro:
         sidebar:
           change_vote_link: "schimba votul"
           create: "Creați o investiție de buget"
-
-
+      investment:
+        add: Votează
+    investments_list:
+      see_all: "Vedeți toate investițiile"
 
