@@ -1,0 +1,77 @@
+ro:
+  admin:
+    actions:
+      confirm_delete: "Sunteți sigur? Această acțiune va șterge %{resource_name} '%{name}' și nu poate fi revocată."
+    budgets:
+      index:
+        table_budget_type: "Tip"
+        type_multiple: "Rubrici multiple"
+        type_pending: "În lucru: fără rubrici"
+        type_single: "O singură rubrică"
+      edit:
+        image_description: "Dacă o imagine este încărcată va fi folosită ca banner deasupra acestui buget participativ, altfel se va folosi culoarea standard pentru bugete."
+        main_call_to_action: "Apel la acțiune principal (opțional)"
+        main_call_to_action_description: "Acest link va apărea pe bannerul principal al acestui buget participativ și încurajează utilizatorul să facă o acțiune specifică precum crearea unei propuneri, votarea unei propuneri existente, sau să descopere mai multe informații despre proces."
+      new:
+        title_multiple: Buget nou cu rubrici multiple
+        title_single: Buget nou cu o singură rubrică
+      help:
+        budgets: "Bugetele participative permit cetățenilor să propună și să decidă în mod direct cum se va cheltui o parte din buget, cu monitorizarea și evaluarea riguroasă a propunerilor de către instituție."
+        groups:
+          multiple: "Grupurile au rolul de a organiza rubrici. După ce un grup este creat și conține rubrici, este posibil să se stabilească în câte rubrici  din fiecare grup poate sa voteze un utilizator."
+          single: "Grupurile au rolul de a organiza rubrici. Deoarece acest buget conține o singură rubrică, același nume poate fi folosit pentru ca nu va fi afisșat nicăieri. Puteți continua la pasul următor."
+        headings:
+          multiple: "Rubricile au rolul de a împărți banii bugetului participativ. Aici puteți adăuga rubrici pentru acest grup și puteți atribui suma de bani care va fi folosită pentru fiecare rubrică."
+          single: "Rubricile au rolul de a împărți banii bugetului participativ. Deoarece acest buget are o singură rubrică, aici puteți stabili suma care va fi alocată acestui buget participativ."
+        phases: "Bugetele participative au diferite faze. Aici puteți activa sau dezactiva fazele și de asemenea puteți personaliza fazele."
+    budget_groups:
+      index:
+        new_button: "Adaugă un grup nou"
+    budget_headings:
+      group_switcher:
+        currently_showing: "Se afișează rubricile din grupul %{group}."
+        different_group: "Administrați rubricile din alt grup"
+        the_other_group: "Administrați rubricile din grupul %{group}."
+      index:
+        new_button: "Adaugă o rubrică nouă"
+        title: "Rubricile din %{budget} / %{group}"
+    budget_phases:
+      edit:
+        title: "Editează faza"
+        image_description: "Dacă o imagine este încărcată aceasta va fi afișată alături de descrierea acestei faze."
+        main_call_to_action: "Apel la acțiune principal (opțional)"
+        main_call_to_action_description: "Acest link va apărea pe bannerul principal al acestui buget participativ și încurajează utilizatorul să facă o acțiune specifică precum crearea unei propuneri, votarea unei propuneri existente, sau să descopere mai multe informații despre proces."
+    budgets_wizard:
+      creation_timeline:
+        budget: Buget
+        groups: Grupuri
+        headings: Rubrici
+        phases: Faze
+      budgets:
+        continue: "Continuați la grupuri"
+      groups:
+        back: "Înapoi la editarea bugetului"
+        continue: "Continuă spre rubrici"
+      headings:
+        continue: "Continuă spre faze"
+        single:
+          back: "Înapoi la editarea grupului"
+      phases:
+        continue: "Finalizează"
+        multiple:
+          back: "Înapoi la rubrici"
+        single:
+          back: "Înapoit la editarea rubricii"
+        update_all:
+          notice: "Fazele au fost configurate cu success"
+      heading_mode:
+        multiple:
+          description: "Creează un proces cu multiple grupuri, districte sau subiecte. Dispuneți de mai multe pungi cu bani. De exemplu, 25,000€ pentru \"Districtul de Nord\", 30,000€ pentru \"Districtul Central\", 28,000€ pentru \"Districtul de Sud\" și pentru întregul oraș. Sau pentru teme multiple, cum ar fi sport, cultură sau sănătate."
+          link: "Creează un buget cu rubrici multiple"
+          title: "Buget cu <strong>rubrici multiple</strong>"
+        single:
+          description: "Creează un proces cu un grup, district sau subiect. Dispuneți de o singură pungă cu bani. De exemplu, 25,000€ pentru district, sau 10,000€ pentru cultură."
+          link: "Creează un budget cu o singură rubrică"
+          title: "Buget cu <strong>o singură rubrică</strong>"
+        title: "Tipul de buget participativ"
+

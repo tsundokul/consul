@@ -1,0 +1,12 @@
+ro:
+  budgets:
+    investments:
+      form:
+        title: "Creați o investiție de buget"
+      index:
+        sidebar:
+          change_vote_link: "schimba votul"
+          create: "Creați o investiție de buget"
+
+
+

@@ -1,0 +1,8 @@
+ro:
+  sessions:
+      new:
+        submit: Conectare
+  shared:
+      links:
+        login: Conectare
+        signup_link: Înregistrați-vă
