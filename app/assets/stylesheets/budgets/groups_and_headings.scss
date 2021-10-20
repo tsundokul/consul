@@ -1,11 +1,37 @@
 .groups-and-headings {
   $spacing: $line-height / 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+
+  .single-group-and-heading {
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+    @include breakpoint(medium) {
+      flex: 0 0 48%;  
+    }
+    @include breakpoint(large) {
+      flex: 0 0 23%;  
+    }
+  }
 
   .headings-list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin-left: -$spacing;
+  }
+
+  .simple-heading {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $border;
+    border-radius: rem-calc(6);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: $line-height / 2;
   }
 
   .heading {

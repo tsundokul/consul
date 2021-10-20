@@ -1,9 +1,12 @@
 <div id="groups_and_headings" class="groups-and-headings">
-  <% budget.groups.each do |group| %>
-    <h2 id="<%= group.name.parameterize %>"><%= group.name %></h2>
-    <ul class="headings-list">
+  
+<% budget.groups.each do |group| %>
+  
+  <div class="single-group-and-heading">  
+  <h2 id="<%= group.name.parameterize %>"><%= group.name %></h2>
+
       <% group.headings.sort_by_name.each do |heading| %>
-        <li class="heading">
+        <div class="simple-heading">
           <%= link_to_unless(
             (budget.informing? || budget.finished?),
             heading.name,
@@ -11,8 +14,11 @@
           ) %>
 
           <%= price(heading) %>
-        </li>
+        </div>
       <% end %>
-    </ul>
+
+    </div>
+
   <% end %>
+
 </div>
