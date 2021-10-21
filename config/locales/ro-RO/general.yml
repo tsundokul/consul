@@ -268,6 +268,9 @@ ro:
       sdg: "ODD"
       c4ro_text:  O soluție Code for Romania pusă la dispoziție gratuit administrației publice. %{find_out_more}
       c4ro_find_out_more: Află mai multe
+      about: Despre
+      faq: Întrebări frecvente
+      contact: Contact
   notifications:
     index:
       empty_notifications: Nu aveți notificări noi.

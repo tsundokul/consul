@@ -248,6 +248,9 @@ en:
       sdg: "SDG"
       c4ro_text: A Code for Romania app, offered pro-bono to the public administration. %{find_out_more}
       c4ro_find_out_more: Find out more.
+      about: About
+      faq: Frequently asked questions
+      contact: Contact
   notifications:
     index:
       empty_notifications: You don't have new notifications.
