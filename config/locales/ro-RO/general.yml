@@ -266,6 +266,8 @@ ro:
           other: Aveți %{count} notificări noi
         notifications: Notificări
       sdg: "ODD"
+      c4ro_text:  O soluție Code for Romania pusă la dispoziție gratuit administrației publice. %{find_out_more}
+      c4ro_find_out_more: Află mai multe
   notifications:
     index:
       empty_notifications: Nu aveți notificări noi.

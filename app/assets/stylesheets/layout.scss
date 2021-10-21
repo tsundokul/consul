@@ -672,10 +672,34 @@ body > header,
   }
 }
 
+.c4ro-brand {
+  display: flex;
+  flex-direction: row;
+  color: $black;
+}
+
+.c4ro-brand-image {
+  margin-bottom: $line-height / 4;
+  margin-top: $line-height / 4;
+}
+
+.c4ro-brand-text {
+  margin-bottom: $line-height / 4;
+  margin-top: $line-height / 4;
+  margin-left: 20px;
+  font-size: $tiny-font-size;
+  font-weight: normal;
+
+  a {
+    font-weight: bold;
+  }
+}
+
 .top-links {
-  background: $dark;
+  background: $brand-grey;
   color: $white;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   font-size: $small-font-size;
 
@@ -903,7 +927,7 @@ footer {
 }
 
 .footer {
-  background: #f1f1f1;
+  background: $brand-grey;
   clear: both;
   margin-top: $line-height * 2;
   padding-bottom: $line-height;
