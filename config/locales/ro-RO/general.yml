@@ -935,7 +935,7 @@ ro:
       process_label: Proces
       see_process: Vezi proces
     cards:
-      title: Recomandări
+      title: Cum funcționează
     recommended:
       title: Recomandări care v-ar putea interesa
       help: "Aceste recomandări sunt generate de etichetele dezbaterilor și propunerilor pe care le urmăriți."
