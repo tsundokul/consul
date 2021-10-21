@@ -50,7 +50,7 @@ ro:
           Sunt de acord cu toate afirmațiile de mai jos
         accept_terms_adult: Declar pe proprie răspundere că am împlinit 18 ani
         accept_terms_resident: Declar pe proprie răspundere că am reședinta temporară sau permanentă în %{residence}
-        accept_terms_terms: Accept %{terms_url} și politica de confidențialitate
+        accept_terms_terms: Accept %{terms_url} și %{privacy_url}
         accept_terms_text_title: Accept termenii și condițiile de acces al Recensământ-ului
         accept_terms_residence: "Declar pe proprie răspundere că am reședinta temporară sau permanentă în "
         accept_terms_age: "Declar pe proprie răspundere că am împlinit 18 ani"
@@ -67,6 +67,7 @@ ro:
         form_errors: Unele date introduse nu sunt valide
         postal_code_note: Pentru a vă verifica contul trebuie să vă înregistrați
         terms: termenii și condițiile de acces
+        privacy: politica de coonfidențialitate
         title: Verificare cont
         verify_residence: Verifică
         help_needed: |
