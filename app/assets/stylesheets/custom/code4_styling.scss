@@ -16,3 +16,15 @@ footer .logo a {
 .close-button {
   font-family: 'Lato';
 }
+
+.card-text-over {
+  position: relative;
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    h3 {
+      text-shadow: 1px 1px $black;
+    }
+  }
+}
