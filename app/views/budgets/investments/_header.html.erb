@@ -55,9 +55,17 @@
               <span class="tagline"><%= t("budgets.investments.header.price") %></span>
               <%= @budget.formatted_heading_price(@heading) %>
             </h3>
+            <% if @heading && !@heading.content_blocks.where(locale: I18n.locale).empty? %>
+              <%= render "budgets/investments/content_blocks" %>
+            <% end %>
           <% end %>
         </div>
       </div>
+
+
+
+
+
     </div>
   </section>
 <% else %>

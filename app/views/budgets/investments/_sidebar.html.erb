@@ -58,10 +58,6 @@
                   class: "button hollow expanded" %>
   </div>
 <% end %>
-
-<% if @heading && !@heading.content_blocks.where(locale: I18n.locale).empty? %>
-  <%= render "budgets/investments/content_blocks" %>
-<% end %>
 <% if @map_location&.available? %>
   <%= render "budgets/investments/map" %>
 <% end %>
