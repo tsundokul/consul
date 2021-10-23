@@ -3,7 +3,7 @@
 <% budget.groups.each do |group| %>
   
   <div class="single-group-and-heading">  
-  <h2 id="<%= group.name.parameterize %>"><%= group.name %></h2>
+  <h3 id="<%= group.name.parameterize %>"><%= group.name %></h3>
 
       <% group.headings.sort_by_name.each do |heading| %>
         <div class="simple-heading">
