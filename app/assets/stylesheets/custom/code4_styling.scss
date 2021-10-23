@@ -17,6 +17,7 @@ footer .logo a {
   font-family: 'Lato';
 }
 
+// "How it works" cards
 .card-text-over {
   position: relative;
   min-height: auto;
@@ -30,6 +31,7 @@ footer .logo a {
   }
 }
 
+// Hero section from the landing page
 .home-header {
   @extend .budget-header;
   min-height: auto;
@@ -47,5 +49,12 @@ footer .logo a {
     padding: 0;
     margin: 0;
     margin-bottom: 0.5rem;
+  }
+}
+
+// Top of the screen language bar
+.locale {
+  a {
+    color: $black;
   }
 }
