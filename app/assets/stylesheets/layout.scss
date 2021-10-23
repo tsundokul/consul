@@ -210,7 +210,7 @@ a {
 }
 
 .highlight {
-  background: $highlight;
+  background: $white;
 }
 
 .icon-check {
@@ -2602,7 +2602,7 @@ table {
   .background-header {
     clip-path: ellipse(60% 80% at 50% 0%);
     height: $line-height * 2;
-    background: $highlight;
+    background: $white;
     margin-top: rem-calc(-48);
   }
 
