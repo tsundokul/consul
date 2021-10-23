@@ -94,7 +94,7 @@ ro:
         title: Bugetare participativă
         unfeasible: Proiecte de investiții imposibile
         unfeasible_text: "Investițiile trebuie să îndeplinească o serie de criterii (legalitate, concretitudine, care să nu depășească limita bugetului) pentru a fi declarate viabile și pentru a ajunge la stadiul de vot final. Toate investițiile care nu îndeplinesc aceste criterii sunt marcate ca fiind imposibile și sunt publicate în lista aferentă, împreună cu raportul său de imposibilitate."
-        by_heading: "Proiecte de investiții cu domeniu de aplicare: %{heading}"
+        by_heading: "%{heading}"
         search_form:
           button: Caută
           placeholder: Căutați proiecte de investiții...
