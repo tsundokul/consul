@@ -15,5 +15,21 @@ ro:
   form:
     not_saved: "a/au prevenit acest/această %{resource} din a fi salvat/ă. <br>Vă rugăm să verificați câmpurile marcate pentru a ști cum să le corectați:"
 
+  welcome:
+    financed_domains:
+      Brașov:
+        header: Domeniile finanțate prin programul de Bugetare Participativă
+        orasul_mobil: 'Orașul Mobil'
+        orasul_verde: 'Orașul Verde'
+        orasul_relaxat: 'Orașul Relaxat'
+        orasul_comunitatilor: 'Orașul Comunităților'
 
-
+en:
+  welcome:
+    financed_domains:
+      Brașov:
+        header: The domains financed through the Participatory Budgeting project
+        orasul_mobil: Mobile City
+        orasul_verde: Green City
+        orasul_relaxat: Relaxed City
+        orasul_comunitatilor: Communities' City

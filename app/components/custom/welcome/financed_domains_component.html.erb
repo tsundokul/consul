@@ -1,0 +1,22 @@
+<% if has_cards? %>
+  <div class="container">
+    <div class="financed-domains"
+      style="background-image: url(<%= asset_url bg_image %>);">
+
+      <div class="row">
+        <div class="column medium-6 large-4 text-center small-centered">
+          <h2><%= header %></h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <% cards.each do |card| %>
+          <div class="column medium-6 large-3 small-12 domain-card">
+              <%= image_tag card[:image] %>
+              <h3 class="align-middle"><%= card[:title] %></span>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>

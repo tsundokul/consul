@@ -1,11 +1,20 @@
-development:
+development: &default
   city: Brașov
   support_email: contact@code4.ro
+  financed_domains:
+    bg_image: Brașov_background.png
+    cards:
+    - image: "orasul mobil.png"
+      i18n: orasul_mobil
+    - image: "orasul verde.png"
+      i18n: orasul_verde
+    - image: "Orasul relaxat.png"
+      i18n: orasul_relaxat
+    - image: "orasul comunitatilor.png"
+      i18n: orasul_comunitatilor
 
 staging:
-  city: Brașov
-  support_email: contact@code4.ro
+  << : *default
 
 production:
-  city: Brașov
-  support_email: contact@code4.ro
+  << : *default
