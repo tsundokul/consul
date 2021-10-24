@@ -70,9 +70,12 @@ footer .logo a {
 
 // Hero financed domains
 .financed-domains {
+  @extend .budget-header;
+  position: relative;
+  min-height: auto;
   padding: 2.5rem;
   padding-bottom: 0;
-  margin: 0 0.9375rem;
+  margin: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
