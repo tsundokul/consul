@@ -2,11 +2,11 @@ ro:
   budgets:
     investments:
       form:
-        title: "Creați o investiție de buget"
+        title: "Propune un proiect"
       index:
         sidebar:
           change_vote_link: "schimba votul"
-          create: "Creați o investiție de buget"
+          create: "Propune un proiect"
       investment:
         add: Votează
     investments_list:
