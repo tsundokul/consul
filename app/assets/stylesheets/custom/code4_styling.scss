@@ -20,6 +20,7 @@ footer .logo a {
 // "How it works" cards
 .card-text-over {
   position: relative;
+  margin-bottom: 0;
   min-height: auto;
   figcaption {
     position: absolute;
@@ -66,6 +67,14 @@ footer .logo a {
 
   padding-bottom: 0;
   margin-bottom: 1rem;
+}
+
+// Remove bottom gutter from landing page cards
+.card {
+  margin-bottom: 3rem;
+  &>a {
+    height: auto;
+  }
 }
 
 // Hero financed domains

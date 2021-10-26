@@ -12,7 +12,7 @@ class Welcome::FinancedDomainsComponent < ApplicationComponent
   end
 
   def header
-    t ['welcome.financed_domains', CITY, 'header'].join('.')
+    translation('header')
   end
 
   def image(name)
@@ -23,9 +23,13 @@ class Welcome::FinancedDomainsComponent < ApplicationComponent
     DATA['cards'].map do |card|
       {
         image: image(card['image']),
-        title: t(['welcome.financed_domains', CITY, card['i18n']].join'.')
+        title: translation(card['i18n'])
       }
     end
+  end
+
+  def translation(keys)
+    t ['welcome.financed_domains', CITY, *keys].join('.')
   end
 
   def bg_image
