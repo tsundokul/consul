@@ -1,5 +1,9 @@
 en:
   budgets:
+    footer:
+      rules: Regulation
+      about: About Participatory Budgeting
+      faq: Frequently Asked Questions
     ballots:
       show:
         title: Your ballot

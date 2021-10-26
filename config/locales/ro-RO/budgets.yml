@@ -1,5 +1,9 @@
 ro:
   budgets:
+    footer:
+      rules: Regulament
+      about: Despre bugetarea participativă
+      faq: Întrebări frecvente
     ballots:
       show:
         title: Votul tău

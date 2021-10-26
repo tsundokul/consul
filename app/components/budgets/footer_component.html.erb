@@ -4,7 +4,10 @@
       <p class="lead">
         <strong><%= t("budgets.index.section_footer.title") %></strong>
       </p>
-      <p><%= t("budgets.index.section_footer.description") %></p>
+      <p><%= sanitize(t("budgets.index.section_footer.description",
+          rules_page: link_to(t("budgets.footer.rules"), "/regulament", target: "blank", rel: "nofollow"),
+          about_budgeting_page: link_to(t("budgets.footer.about"), "/despre-bugetare-participativa", target: "blank", rel: "nofollow"),
+          faq_page: link_to(t("budgets.footer.faq"), "/faq", target: "blank", rel: "nofollow"))) %></p>
     </div>
   </div>
 </div>
