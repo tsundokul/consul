@@ -12,6 +12,9 @@ development: &default
       i18n: orasul_relaxat
     - image: "orasul comunitatilor.png"
       i18n: orasul_comunitatilor
+  custom_page:
+    accessibility:
+      bgcolor: '#6961FF'
 
 staging:
   << : *default

@@ -124,3 +124,24 @@ footer .logo a {
     }
   }
 }
+
+.custom-page-header {
+  @include full-width-background;
+  margin-bottom: 1rem;
+  min-height: 10rem;
+  width: 100%;
+
+  &>div { min-height: inherit; display: table; }
+  h1 { display: table-cell; vertical-align: middle; }
+
+  @media (max-width: 576px) {
+    text-align: center;
+  }
+
+  &::before {
+    background: var(--bgcolor);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
