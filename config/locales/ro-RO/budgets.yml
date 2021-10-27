@@ -128,7 +128,7 @@ ro:
           zero: Nu ați votat niciun proiect de investiții în acest grup.
           verified_only: "Pentru a crea o nouă investiție bugetară %{verify}."
           create: "Creează un buget de investiții"
-          not_logged_in: "Pentru a crea un nou buget de investiții trebuie să %{sign_in} sau %{sign_up}."
+          not_logged_in: "Pentru a crea o propunere de proiect trebuie să %{sign_in} sau %{sign_up}."
         filter: "Filtrează proiectele după"
         filters:
           not_unfeasible: "Realizabil"

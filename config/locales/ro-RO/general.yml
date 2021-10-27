@@ -844,8 +844,8 @@ ro:
   users:
     login_to_comment: "Trebuie %{signin} sau %{signup} pentru a lăsa un comentariu."
     login_to_continue: "Trebuie %{signin} sau %{signup} pentru a continua."
-    signin: "conectare"
-    signup: "înregistrare"
+    signin: "intrați în cont"
+    signup: "vă creați un cont"
     verify_account: "verifică-ți contul"
     direct_messages:
       new:

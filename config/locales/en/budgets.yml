@@ -122,7 +122,7 @@ en:
           zero: You have not voted any investment project in this group.
           verified_only: "To create a new budget investment %{verify}."
           create: "Submit a project proposal"
-          not_logged_in: "To create a new budget investment you must %{sign_in} or %{sign_up}."
+          not_logged_in: "To create a new project proposition you must %{sign_in} or %{sign_up}."
         filter: "Filtering projects by"
         filters:
           not_unfeasible: "Not unfeasible"
