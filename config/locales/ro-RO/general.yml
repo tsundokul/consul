@@ -816,6 +816,7 @@ ro:
         one: "1 limbă utilizată"
         few: "%{count} limbi utilizate"
         other: "%{count} limbi utilizate"
+    required: "Completează formularul"
   social:
     facebook: "%{org} Facebook"
     twitter: "%{org} Twitter"

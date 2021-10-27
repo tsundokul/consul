@@ -21,7 +21,10 @@
               maxlength: Budget::Investment.title_max_length,
               data: suggest_data(investment) %>
       </div>
+
       <div class="js-suggest" data-locale="<%= translations_form.locale %>"></div>
+
+      <div><p><%= t("investment_help_text") %></p></div>
 
       <div>
         <%= translations_form.text_area :description,
@@ -63,10 +66,6 @@
 
     <div>
       <%= f.text_field :location %>
-    </div>
-
-    <div>
-      <%= f.text_field :organization_name %>
     </div>
 
     <div>

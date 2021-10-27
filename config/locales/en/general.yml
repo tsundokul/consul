@@ -782,7 +782,7 @@ en:
         one: "1 language in use"
         other: "%{count} languages in use"
     optional: "Optional"
-    required: "Required"
+    required: "Fill in the form"
   social:
     facebook: "%{org} Facebook"
     twitter: "%{org} Twitter"

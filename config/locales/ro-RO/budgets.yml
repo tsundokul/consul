@@ -91,7 +91,7 @@ ro:
         tags_label: Etichete
         tags_placeholder: "Introduceți etichetele pe care doriți să le utilizați, separate prin virgule (',')"
         map_location: "Localizare pe hartă"
-        map_location_instructions: "Navigați pe hartă până la locație și plasați marcatorul."
+        map_location_instructions: "Spune-ne unde s-ar implementa ideea ta de proiect."
         map_remove_marker: "Eliminați marcatorul de hartă"
         map_skip_checkbox: "Această investiție nu are o locație concretă sau nu o cunosc."
       index:

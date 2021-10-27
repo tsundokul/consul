@@ -89,7 +89,7 @@ en:
         tags_label: Tags
         tags_placeholder: "Enter the tags you would like to use, separated by commas (',')"
         map_location: "Map location"
-        map_location_instructions: "Navigate the map to the location and place the marker."
+        map_location_instructions: "Tell us where your project idea would be implemented."
         map_remove_marker: "Remove map marker"
       index:
         title: Participatory budgeting
