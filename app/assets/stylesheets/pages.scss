@@ -28,6 +28,11 @@
   &.header-card {
     @include full-width-background;
   }
+
+  .text-area {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .lead {

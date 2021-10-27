@@ -2,12 +2,14 @@
   <div class="header-card jumbo-frontpage highlight">
     <div class="row">
       <div class="small-12 medium-6 column <%= "medium-9 small-centered text-center" unless header.image.present? %>">
-        <span><%= header.label %></span>
-        <h1><%= header.title %></h1>
+      <div class="text-area">
+          <span><%= header.label %></span>
+          <h1><%= header.title %></h1>
 
-        <p class="lead"><%= header.description %></p>
+          <p class="lead"><%= header.description %></p>
 
-        <% if header.link_text.present? && header.link_url.present? %>
+          <% if header.link_text.present? && header.link_url.present? %>
+        </div>
           <div class="small-12 medium-6 large-4 <%= "small-centered" unless header.image.present? %>">
             <%= link_to header.link_text, header.link_url, class: "button expanded large" %>
           </div>
