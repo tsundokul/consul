@@ -18,17 +18,31 @@
     <% end %>
 
     <li>
+        <%= layout_menu_link_to t("layouts.header.calendar"),
+                                "/calendar",
+                                controller_name == "calendar",
+                                accesskey: "3" %>
+    </li>
+
+      <li>
+      <%= layout_menu_link_to t("layouts.header.evaluation"),
+                              "/evaluarea-proiectelor",
+                              controller_name == "evaluation",
+                              accesskey: "4" %>
+    </li>
+
+    <li>
         <%= layout_menu_link_to t("layouts.header.faq"),
                                 "/faq",
                                 controller_name == "faq",
-                                accesskey: "3" %>
+                                accesskey: "5" %>
     </li>
 
       <li>
       <%= layout_menu_link_to t("layouts.header.contact"),
                               "/contact",
                               controller_name == "contact",
-                              accesskey: "4" %>
+                              accesskey: "6" %>
     </li>
 
     <%= raw content_block("subnavigation_right") %>

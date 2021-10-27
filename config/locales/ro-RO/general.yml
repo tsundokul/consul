@@ -259,7 +259,7 @@ ro:
       open_gov: Transparență
       proposals: Propuneri
       poll_questions: Votare
-      budgets: Bugetare participativă
+      budgets: Înscrie proiect
       notification_item:
         new_notifications:
           zero: "Nu aveți notificări noi"
@@ -273,6 +273,8 @@ ro:
       about: Despre
       faq: Întrebări frecvente
       contact: Contact
+      calendar: Calendar
+      evaluation: Evaluarea proiectelor
   notifications:
     index:
       empty_notifications: Nu aveți notificări noi.

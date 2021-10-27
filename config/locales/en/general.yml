@@ -241,7 +241,7 @@ en:
       open_gov: Open government
       proposals: Proposals
       poll_questions: Voting
-      budgets: Participatory budgeting
+      budgets: Submit project
       notification_item:
         new_notifications:
           one: You have a new notification
@@ -254,6 +254,8 @@ en:
       about: About
       faq: Frequently asked questions
       contact: Contact
+      calendar: Calendar
+      evaluation: Projects Evaluation
   notifications:
     index:
       empty_notifications: You don't have new notifications.
