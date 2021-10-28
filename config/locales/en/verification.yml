@@ -67,6 +67,10 @@ en:
         terms: the terms and conditions of access
         title: Verify residence
         verify_residence: Verify residence
+        help_needed: |
+          If you run into any issues with the verification process, contact us: %{email}
+        explanation: We are using your CNP only to validate that you are a citizen of Brasov, as stated in %{rules_url}.
+        rules: the Regulation
     sms:
       create:
         flash:

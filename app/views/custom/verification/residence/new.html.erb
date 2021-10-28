@@ -13,6 +13,9 @@
             email: mail_to(Rails.configuration.deploy['support_email'])
           ) %>
       </p>
+      <p><%= sanitize(t("verification.residence.new.explanation",
+          rules_url: link_to(t("verification.residence.new.rules"), "/regulament", target: "blank", rel: "nofollow"))) %>
+      </p>
       <hr/>
 
     </div>

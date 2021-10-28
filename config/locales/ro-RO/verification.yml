@@ -72,6 +72,8 @@ ro:
         verify_residence: Verifică
         help_needed: |
           Dacă întâmpini probleme cu procesul de verificare, contactează-ne: %{email}
+        explanation: Folosim CNP-ul dumneavoastră doar pentru a valida faptul că sunteți rezident în municipiul Brașov, conform %{rules_url}.
+        rules: Regulamentului
     sms:
       create:
         flash:
