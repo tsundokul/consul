@@ -71,6 +71,8 @@ Rails.application.configure do
 
   # Configure your SMTP service credentials in secrets.yml
   if Rails.application.secrets.smtp_settings
+    OpenSSL::SSL::SSLContext::DEFAULT_PARAMS[:options] |= OpenSSL::SSL::OP_NO_COMPRESSION
+    OpenSSL::SSL::SSLContext::DEFAULT_PARAMS[:ciphers] = "TLSv1.2:!aNULL:!eNULL"
     config.action_mailer.delivery_method = Rails.application.secrets.mailer_delivery_method || :smtp
     config.action_mailer.smtp_settings = Rails.application.secrets.smtp_settings
   end
