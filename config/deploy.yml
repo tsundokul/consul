@@ -12,6 +12,13 @@ development: &default
       i18n: orasul_relaxat
     - image: "orasul comunitatilor.png"
       i18n: orasul_comunitatilor
+  custom_pages:
+    accessibility:
+      bgcolor: '#6961FF'
+      color: '#fff'
+  investments_heading_icons:
+    heading_id_5: 'custom_pages/accessibility.png'
+
 
 staging:
   << : *default

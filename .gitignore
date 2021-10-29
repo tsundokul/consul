@@ -39,3 +39,5 @@ public/sitemap.xml
 public/assets/
 public/system/
 /public/ckeditor_assets/
+
+.env

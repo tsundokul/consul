@@ -1,0 +1,50 @@
+<%= content_for :body_class, "custom-page" %>
+<% provide :title do %><%= @custom_page.title %><% end %>
+
+<% if @title_bgcolor %>
+  <div class="row custom-page-header">
+    <div class="small-12 column middle-center align-middle">
+      <h1>
+        <%= @custom_page.title %>
+      </h1>
+    </div>
+  </div>
+  <style>
+    .custom-page-header {
+      --bgcolor: <%= @title_bgcolor %>;
+      --h1-color: <%= @title_color %>;
+    }
+    .custom-page header {
+      margin-bottom: 0;
+    }
+  </style>
+<% end %>
+
+<div class="row">
+
+  <div class="small-12 medium-9 column">
+    <% unless @title_bgcolor %>
+      <h1>
+        <%= @custom_page.title %>
+      </h1>
+    <% end %>
+    <% if @custom_page.subtitle.present? %>
+      <h2><%= @custom_page.subtitle %></h2>
+    <% end %>
+
+    <%= auto_link_already_sanitized_html AdminWYSIWYGSanitizer.new.sanitize(@custom_page.content) %>
+  </div>
+
+  <% if @custom_page.print_content_flag %>
+    <div class="small-12 medium-3 column">
+      <%= render "/shared/print" %>
+    </div>
+  <% end %>
+
+  <% if @cards.any? %>
+    <div class="small-12 column">
+      <%= render "shared/cards", cards: @cards %>
+    </div>
+  <% end %>
+
+</div>
