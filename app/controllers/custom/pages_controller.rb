@@ -8,8 +8,8 @@ class PagesController < ApplicationController
     @custom_page = SiteCustomization::Page.published.find_by(slug: params[:id])
 
     if @custom_page.present?
-      @title_icon = custom_page_attr('icon')
       @title_bgcolor = custom_page_attr('bgcolor')
+      @title_color = custom_page_attr('color')
       @cards = @custom_page.cards
       render action: :custom_page
     else
@@ -23,7 +23,7 @@ class PagesController < ApplicationController
 
   def custom_page_attr(attr)
     Rails.configuration.deploy.dig(
-      'custom_page',
+      'custom_pages',
       @custom_page.slug,
       attr
     )

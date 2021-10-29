@@ -132,7 +132,11 @@ footer .logo a {
   width: 100%;
 
   &>div { min-height: inherit; display: table; }
-  h1 { display: table-cell; vertical-align: middle; }
+  h1 {
+    color: var(--h1-color);
+    display: table-cell;
+    vertical-align: middle;
+  }
 
   @media (max-width: 576px) {
     text-align: center;
@@ -140,8 +144,11 @@ footer .logo a {
 
   &::before {
     background: var(--bgcolor);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
+}
+
+.custom-heading-icon {
+  height: 2.75rem;
+  position: relative;
+  bottom: 0.25rem;
 }
