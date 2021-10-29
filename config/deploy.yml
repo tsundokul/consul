@@ -13,8 +13,29 @@ development: &default
     - image: "orasul comunitatilor.png"
       i18n: orasul_comunitatilor
   custom_pages:
-    accessibility:
-      bgcolor: '#6961FF'
+    regulament:
+      bgcolor: '#F68E21'
+      color: '#fff'
+    evaluarea-proiectelor:
+      bgcolor: '#E02148'
+      color: '#fff'
+    calendar:
+      bgcolor: '#66AD30'
+      color: '#fff'
+    faq:
+      bgcolor: '#E02148'
+      color: '#fff'
+    contact:
+      bgcolor: '#5FC9AD'
+      color: '#fff'
+    despre-bugetare-participativa:
+      bgcolor: '#1A4D9C'
+      color: '#fff'
+    terms-and-conditions:
+      bgcolor: '#1A4D9C'
+      color: '#fff'
+    privacy-policy:
+      bgcolor: '#1A4D9C'
       color: '#fff'
   investments_heading_icons:
     heading_id_5: 'custom_pages/accessibility.png'
