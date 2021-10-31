@@ -36,7 +36,7 @@ ro:
           other: "Ați votat <span>%{count}</span> investiții."
         voted_info: "Votul dumneavoastră este confirmat!"
         voted_info_2: "Dar puteți modifica votul în orice moment până când această etapă se închide."
-        zero: Nu ați votat niciun proiect de investiții.
+        zero: Nu ați votat nicio propunere de proiect.
       reasons_for_not_balloting:
         not_logged_in: Trebuie %{signin} sau %{signup} pentru a continua.
         not_verified: Doar utilizatorii verificați pot vota investițiile; %{verify_account}.
@@ -125,7 +125,7 @@ ro:
           different_heading_assigned: "Aveți voturi active în altă rubrică: %{heading_link}"
           change_ballot: "Dacă vă răzgândiți, puteți elimina voturile din %{check_ballot} și puteți începe din nou."
           check_ballot_link: "verifică și confirmă votul"
-          zero: Nu ați votat niciun proiect de investiții în acest grup.
+          zero: Nu ați votat niciun nicio propunere de proiect în acest grup.
           verified_only: "Pentru a crea o nouă investiție bugetară %{verify}."
           create: "Creează un buget de investiții"
           not_logged_in: "Pentru a crea o propunere de proiect trebuie să %{sign_in} sau %{sign_up}."
@@ -150,17 +150,17 @@ ro:
         location: "Locație: <strong>%{location}</strong>"
         organization_name: "Propus din partea: <strong>%{name}</strong>"
         share: Distribuie
-        title: Proiect de investiții
+        title: Propunere de proiect
         supports: Susținători
         votes: Voturi
         price: Preț
         comments_tab: Comentarii
         milestones_tab: Repere
         author: Autor
-        project_unfeasible: "Acest proiect de investiții <strong>a fost marcat ca ne fiind posibil</strong> și nu va trece la faza de votare."
-        project_selected: "Acest proiect de investiții <strong>a fost selectat</strong> pentru faza de votare."
-        project_winner: "Proiectul de investiții câștigător"
-        project_not_selected: "Acest proiect de investiții <strong>nu a fost selectat</strong> pentru faza de votare."
+        project_unfeasible: "Acestă propunere de proiect <strong>a fost marcat ca ne fiind posibil</strong> și nu va trece la faza de votare."
+        project_selected: "Acestă propunere de proiect <strong>a fost selectat</strong> pentru faza de votare."
+        project_winner: "Propunerea de proiect câștigătoare"
+        project_not_selected: "Acestă propunere de proiect <strong>nu a fost selectat</strong> pentru faza de votare."
         see_price_explanation: Vezi explicația prețurilor
       wrong_price_format: Numai numere întregi
       investment:

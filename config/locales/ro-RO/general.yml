@@ -785,7 +785,7 @@ ro:
         message: "Vedeți %{limit} din %{count} propuneri care conțin termenul „%{query}”"
         see_all: "Vezi tot"
     tags_cloud:
-      tags: În tendință
+      tags: Cele mai populare
       districts: "Districte"
       districts_list: "Lista de districte"
       categories: "Categorii"
