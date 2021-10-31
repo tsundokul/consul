@@ -23,7 +23,7 @@ development: &default
       bgcolor: '#66AD30'
       color: '#fff'
     faq:
-      bgcolor: '#9a238e'
+      bgcolor: '#9A238E'
       color: '#fff'
     contact:
       bgcolor: '#5FC9AD'
