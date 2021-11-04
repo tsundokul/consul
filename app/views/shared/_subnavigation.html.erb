@@ -24,25 +24,32 @@
                                 accesskey: "3" %>
     </li>
 
+    <li>
+        <%= layout_menu_link_to t("layouts.header.news"),
+                                "/news",
+                                controller_name == "news",
+                                accesskey: "4" %>
+    </li>
+
       <li>
       <%= layout_menu_link_to t("layouts.header.evaluation"),
                               "/evaluarea-proiectelor",
                               controller_name == "evaluation",
-                              accesskey: "4" %>
+                              accesskey: "5" %>
     </li>
 
     <li>
         <%= layout_menu_link_to t("layouts.header.faq"),
                                 "/faq",
                                 controller_name == "faq",
-                                accesskey: "5" %>
+                                accesskey: "6" %>
     </li>
 
       <li>
       <%= layout_menu_link_to t("layouts.header.contact"),
                               "/contact",
                               controller_name == "contact",
-                              accesskey: "6" %>
+                              accesskey: "7" %>
     </li>
 
     <%= raw content_block("subnavigation_right") %>

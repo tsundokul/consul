@@ -275,6 +275,7 @@ ro:
       contact: Contact
       calendar: Calendar
       evaluation: Evaluarea proiectelor
+      news: Noutăți
   notifications:
     index:
       empty_notifications: Nu aveți notificări noi.

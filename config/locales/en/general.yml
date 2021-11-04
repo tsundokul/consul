@@ -256,6 +256,7 @@ en:
       contact: Contact
       calendar: Calendar
       evaluation: Projects Evaluation
+      news: News
   notifications:
     index:
       empty_notifications: You don't have new notifications.
