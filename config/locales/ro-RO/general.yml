@@ -259,7 +259,7 @@ ro:
       open_gov: Transparență
       proposals: Propuneri
       poll_questions: Votare
-      budgets: Votează
+      budgets: Rezultate
       notification_item:
         new_notifications:
           zero: "Nu aveți notificări noi"

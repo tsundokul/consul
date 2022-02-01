@@ -11,7 +11,7 @@
     <% if feature?(:budgets) %>
       <li>
         <%= layout_menu_link_to t("layouts.header.budgets"),
-                                  "/voteaza-proiectele",
+                                  "/rezultate",
                                   controller_name == "budgets" || controller_name == "investments",
                                   accesskey: "2" %>
       </li>
