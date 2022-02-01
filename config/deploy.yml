@@ -40,6 +40,9 @@ development: &default
     news:
       bgcolor: '#9cc029'
       color: '#fff'
+    rezultate:
+      bgcolor: '#FEC20B'
+      color: '#fff'
   investments_heading_icons:
     heading_id_2: 'custom_pages/orasul mobil_pg.png'
     heading_id_4: 'custom_pages/orasul verde_pg.png'
