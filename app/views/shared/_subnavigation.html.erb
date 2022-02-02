@@ -7,11 +7,20 @@
                             controller_name == "about",
                             accesskey: "1" %>
     </li>
-    
+
     <% if feature?(:budgets) %>
       <li>
         <%= layout_menu_link_to t("layouts.header.budgets"),
                                   "/rezultate",
+                                  controller_name == "budgets" || controller_name == "investments",
+                                  accesskey: "2" %>
+      </li>
+    <% end %>
+
+    <% if feature?(:budgets) %>
+      <li>
+        <%= layout_menu_link_to "Proiecte Bugetare Participativa",
+                                  "/budgets/2",
                                   controller_name == "budgets" || controller_name == "investments",
                                   accesskey: "2" %>
       </li>
