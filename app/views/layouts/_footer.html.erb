@@ -8,8 +8,8 @@
       <p class="info">
         <%= sanitize(t("layouts.footer.description",
           open_source: link_to(t("layouts.footer.open_source"), t("layouts.footer.open_source_url"), target: "blank", rel: "nofollow"),
-          consul: link_to(t("layouts.footer.consul"), t("layouts.footer.consul_url"), target: "blank", rel: "nofollow"),
-          c4ro_repo: link_to(t("layouts.footer.here"), t("layouts.footer.c4ro_repo_url"), target: "blank", rel: "nofollow"))) %>
+          consul:  link_to(t("layouts.footer.consul"), t("layouts.footer.consul_url"), target: "blank", rel: "nofollow"))) %>
+        <%= t("layouts.footer.contact_us") %>
       </p>
     </div>
 
@@ -25,9 +25,9 @@
     <div class="small-12 medium-8 column">
       <%= t("layouts.footer.copyright", year: Time.current.year) %>&nbsp;|
       <ul class="no-bullet inline-block">
-        <li class="inline-block"><%= link_to t("layouts.footer.privacy"), "/privacy-policy" %>&nbsp;|</li>
-        <li class="inline-block"><%= link_to t("layouts.footer.conditions"), "/terms-and-conditions" %>&nbsp;|</li>
-        <li class="inline-block"><%= link_to t("layouts.footer.faq"), "/faq" %></li>
+        <li class="inline-block"><%= link_to t("layouts.footer.privacy"), page_path("privacy") %>&nbsp;|</li>
+        <li class="inline-block"><%= link_to t("layouts.footer.conditions"), page_path("conditions") %>&nbsp;|</li>
+        <li class="inline-block"><%= link_to t("layouts.footer.accessibility"), page_path("accessibility") %></li>
       </ul>
     </div>
 

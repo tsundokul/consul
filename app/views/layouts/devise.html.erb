@@ -6,53 +6,23 @@
     <%= raw setting["html.per_page_code_head"] %>
   </head>
 
-  <div class="top-links">
-      <div class="c4ro-brand">
-
-      <div class="c4ro-brand-image"><%= image_tag(image_path_for("code4romania.svg"), alt: "Code for Romania logo", size: "102x10") %></div>
-
-      <div class="c4ro-brand-text">
-      <%= sanitize(t("layouts.header.c4ro_text",
-          find_out_more: link_to(t("layouts.header.c4ro_find_out_more"), "https://code4.ro/ro/putem",
-                        title: "Code for Romania",
-                        target: "_blank"))) %>
+  <body class="auth-page">
+    <%= raw setting["html.per_page_code_body"] %>
+    <div class="wrapper">
+      <div class="auth-image small-12 medium-3 column">
+        <h1 class="logo margin">
+          <%= link_to root_path do %>
+            <%= image_tag(image_path_for("logo_header.png"), class: "float-left", alt: setting["org_name"]) %>
+          <% end %>
+        </h1>
       </div>
 
-    </div>
-
-    <div>
-      <%= render "shared/locale_switcher" %>
-    </div>
-    <div class="hide-for-small-only">
-      <%= render "shared/top_links" %>
-    </div>
-  </div>
-
-  <div class="top-bar">
-    <div class="responsive-menu-wrapper" data-hide-for="medium">
-    <span data-responsive-toggle="responsive-menu">
-      <button type="button" class="menu-button" data-toggle>
-        <span class="menu-icon"></span>
-        <%= t("application.menu") %>
-      </button>
-    </span>
-    </div>
-
-    <h1 class="top-bar-title">
-      <%= link_to root_path, accesskey: "0" do %>
-        
-          <%= image_tag(image_path_for("brasov.svg"), alt: setting["org_name"]) %>
-          <%= image_tag(image_path_for("bugetare-participativa.svg"), alt: setting["org_name"]) %>
-        
-      <% end %>
-    </h1>
-  </div>
-
-      <div>
+      <div class="small-12 medium-9 column">
         <div class="row">
           <div class="small-12 medium-9 large-7 small-centered column">
             <div class="auth-form margin">
               <%= render "layouts/flash" %>
+
               <%= yield %>
             </div>
           </div>
