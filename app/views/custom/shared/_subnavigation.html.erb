@@ -1,0 +1,66 @@
+<nav>
+  <ul>
+    <%= raw content_block("subnavigation_left") %>
+    <li>
+    <%= layout_menu_link_to t("layouts.header.about"),
+                            "/despre-bugetare-participativa",
+                            controller_name == "about",
+                            accesskey: "1" %>
+    </li>
+
+    <% if feature?(:budgets) %>
+      <li>
+        <%= layout_menu_link_to t("layouts.header.budgets"),
+                                  "/rezultate",
+                                  controller_name == "budgets" || controller_name == "investments",
+                                  accesskey: "2" %>
+      </li>
+    <% end %>
+
+    <% if feature?(:budgets) %>
+      <li>
+        <%= layout_menu_link_to "Proiecte Bugetare Participativa",
+                                  "/budgets/2",
+                                  controller_name == "budgets" || controller_name == "investments",
+                                  accesskey: "2" %>
+      </li>
+    <% end %>
+
+    <li>
+        <%= layout_menu_link_to t("layouts.header.calendar"),
+                                "/calendar",
+                                controller_name == "calendar",
+                                accesskey: "3" %>
+    </li>
+
+    <li>
+        <%= layout_menu_link_to t("layouts.header.news"),
+                                "/news",
+                                controller_name == "news",
+                                accesskey: "4" %>
+    </li>
+
+      <li>
+      <%= layout_menu_link_to t("layouts.header.evaluation"),
+                              "/evaluarea-proiectelor",
+                              controller_name == "evaluation",
+                              accesskey: "5" %>
+    </li>
+
+    <li>
+        <%= layout_menu_link_to t("layouts.header.faq"),
+                                "/faq",
+                                controller_name == "faq",
+                                accesskey: "6" %>
+    </li>
+
+      <li>
+      <%= layout_menu_link_to t("layouts.header.contact"),
+                              "/contact",
+                              controller_name == "contact",
+                              accesskey: "7" %>
+    </li>
+
+    <%= raw content_block("subnavigation_right") %>
+  </ul>
+</nav>
